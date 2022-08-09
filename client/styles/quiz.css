@@ -1,0 +1,89 @@
+.nav {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.right {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: right;
+}
+.button2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5%;
+  padding: 0.5%;
+  font-size: 80%;
+  height: 20px;
+  background-color: #3287a8;
+  color: white;
+  border-radius: 10px;
+  width: 9%;
+}
+.button2:hover {
+  background: transparent;
+  background-color: #3287a8;
+  height: 30px;
+  width: 12%;
+  border-radius: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5%;
+  padding: 0.5%;
+  font-size: 80%;
+  height: 100%;
+  width: 9%;
+}
+.button:hover {
+  background: transparent;
+  background-color: #34a8eb;
+  color: white;
+  border-radius: 10px;
+}
+.textarea {
+  border-radius: 10px;
+  margin: 1%;
+  padding: 1%;
+  font: 1em sans-serif;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #c4c4c4;
+  width: 90%;
+  height: 50px;
+}
+.textarea::placeholder {
+  font: 1em sans-serif;
+}
+textarea:focus {
+  outline: none !important;
+  border-width: 2px;
+  border-color: #89baf3;
+  border-style: solid;
+}
+.card {
+  margin: 5%;
+  padding: 3%;
+  overflow: hidden;
+  width: 50%;
+  min-height: 50%;
+  font-size: 130;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: 1em sans-serif;
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1.5px;
+  border-color: #c4c4c4;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2);
+}
