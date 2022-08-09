@@ -1,0 +1,23 @@
+// import { auth } from '../auth.js';
+import { con } from '../sql_con.js';
+export function get_qq_info(req, res) {
+   
+   // auth(req,res,next);
+   var sql= 'SELECT * FROM qq WHERE id=?'
+    con.query(sql,[req.query.id], function (err, result) {
+        if (err) {
+            console.log(err.message);
+        }
+        else
+        {
+            //console.log(result);
+            res.send(result);
+        }
+    });
+      
+ }
+ function next(req,res,decoded)
+{
+    
+    
+}
